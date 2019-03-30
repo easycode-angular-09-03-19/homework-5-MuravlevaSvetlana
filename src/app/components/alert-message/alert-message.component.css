@@ -1,0 +1,6 @@
+.card {
+    position: fixed;
+    top: 3rem;
+    left: 73rem;
+    z-index: 2;
+}
