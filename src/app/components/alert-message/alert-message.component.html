@@ -1,0 +1,14 @@
+<!--Delete Message-->
+<div class="card" style="width: 18rem;" *ngIf = "classDelete">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">You have deleted element</h6>
+    <button type="button" class="btn btn-primary"(click) = "hideElement()">OK</button>
+  </div>
+</div>
+<!--Edit message-->
+<div class="card" style="width: 18rem;" *ngIf = "classedit">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">Element was updated</h6>
+    <button type="button" class="btn btn-primary"(click) = "hideElement()">OK</button>
+  </div>
+</div>
